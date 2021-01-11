@@ -1,5 +1,5 @@
-# Hello-World
-Short tut repo
+# Hello
+The purpose of this repo is to store the practices done for my internship over at WSAudiology.
 
-
-This has been edited in the branch of hello-world.
+First task:
+Creating a "Point" class that can show its coordinates, move to new coordinates and calculate the distance between itself and another point.
