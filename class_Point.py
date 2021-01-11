@@ -22,7 +22,7 @@ class Point():
         print("Coordinates are: %s,%s,%s" % (self.x0,self.y0,self.z0))
         
     def move(self,x=0,y=0,z=0):
-        "This function will move the point to the desired coordinates."
+        "This function will move the point to the desired coordinates. If no values are added, the point will not move."
 
         self.x0+=x
         self.y0+=y
@@ -31,6 +31,7 @@ class Point():
     def dist(self,p):
         """This function will calculate the distance between this point and another point and print the result. 
         The value can also be saved into another variable outside of the class."""
+        
         distx=abs(self.x0-p.x0)
         disty=abs(self.y0-p.y0)
         distz=abs(self.z0-p.z0)
