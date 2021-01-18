@@ -40,4 +40,3 @@ class Point():
         print("The distance between the two points is: %s" % distance)
         return distance
         
-### Help, how to connect spyder and Github
